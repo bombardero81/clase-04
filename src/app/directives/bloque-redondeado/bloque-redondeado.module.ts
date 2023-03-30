@@ -10,6 +10,9 @@ import { BloqueRedondeadoDirective } from './bloque-redondeado.directive';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    BloqueRedondeadoDirective
   ]
 })
 export class BloqueRedondeadoModule { }

@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'interpolacionydirectivas';
+
+  personas : string[] = [
+    'Martinez',
+    'Romero',
+    'Otamendi',
+    'Martinez' ]
 }
